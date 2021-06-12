@@ -136,6 +136,42 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="footer">
+        <div className="footer-content-left">
+          <img src={require("./images/Group 225.png").default} alt="" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing<br/>elit, sed do eiusmod tempor </p>
+          <div className="copyright-underline"></div>
+          <h6>© Copyright 2020 Nature</h6>
+        </div>
+        <div className="footer-content-right">
+          <div className="footer-information">
+            <h6>Information</h6>
+            <div className="information-underline"></div>
+            <div className="more-sub-info">
+              <div className="info-left">
+                <span>About Us</span>
+                <span>Products</span>
+                <span>Contact Us</span>
+                <span>Terms of Service</span>
+              </div>
+              <div className="info-right">
+                <span>About Us</span>
+                <span>Products</span>
+              </div>
+            </div>
+          </div>
+          <div className="footer-social-links">
+            <h5>Follow Us</h5>
+            <div className="follow-underline"></div>
+            <div className="social-media-links">
+              <img src={require("./images/Group 99.png").default} alt="facebook" />
+              <img src={require("./images/Group 100.png").default} alt="Linked In" />
+              <img src={require("./images/twitter.svg").default} style={{height: '31px'}} alt="Twitter" />
+              <img src={require("./images/Group 105.png").default} alt="Instagram" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
